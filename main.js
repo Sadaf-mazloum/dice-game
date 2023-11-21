@@ -4,30 +4,30 @@ function set_dicce ()
      player1= Math.floor(Math.random() * 6)+1;
      player2= Math.floor(Math.random() * 6)+1;
     if(player1 == 1){
-        document.getElementById("img1").src="image/dice1.png";
+        document.getElementById("img1").src="images/dice1.png";
     }else if(player1  == 2){
-        document.getElementById("img1").src="image/dice2.png";
+        document.getElementById("img1").src="images/dice2.png";
     }else if(player1  == 3){
-        document.getElementById("img1").src="image/dice3.png";
+        document.getElementById("img1").src="images/dice3.png";
     }else if(player1  == 4){
-        document.getElementById("img1").src="image/dice4.png";
+        document.getElementById("img1").src="images/dice4.png";
     }else if(player1 == 5){
-        document.getElementById("img1").src="image/dice5.png";
+        document.getElementById("img1").src="images/dice5.png";
     }else{
-        document.getElementById("img1").src="image/dice6.png";
+        document.getElementById("img1").src="images/dice6.png";
     }
     if(player2== 1){
-        document.getElementById("img2").src="image/dice1.png";
+        document.getElementById("img2").src="images/dice1.png";
     }else if(player2 == 2){
-        document.getElementById("img2").src="image/dice2.png";
+        document.getElementById("img2").src="images/dice2.png";
     }else if(player2 == 3){
-        document.getElementById("img2").src="image/dice3.png";
+        document.getElementById("img2").src="images/dice3.png";
     }else if(player2 == 4){
-        document.getElementById("img2").src="image/dice4.png";
+        document.getElementById("img2").src="images/dice4.png";
     }else if(player2 == 5){
-        document.getElementById("img2").src="image/dice5.png";
+        document.getElementById("img2").src="images/dice5.png";
     }else{
-        document.getElementById("img2").src="image/dice6.png";
+        document.getElementById("img2").src="images/dice6.png";
     }
      winner();
 }
