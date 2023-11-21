@@ -29,7 +29,7 @@ function set_dicce ()
     }else{
         document.getElementById("img2").src="images/dice6.png";
     }
-     winner();
+    winner();
 }
 function winner (){
     if(player1 > player2){
@@ -43,3 +43,4 @@ function winner (){
         document.getElementById('hh').innerHTML = "player1 == player2";
     }
 }
+
