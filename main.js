@@ -1,8 +1,8 @@
 
 function set_dicce ()
 {
-     player1= Math.floor(Math.random() * 7);
-     player2= Math.floor(Math.random() * 7);
+     player1= Math.floor(Math.random() * 6)+1;
+     player2= Math.floor(Math.random() * 6)+1;
     if(player1 == 1){
         document.getElementById("img1").src="image/dice1.png";
     }else if(player1  == 2){
@@ -29,6 +29,7 @@ function set_dicce ()
     }else{
         document.getElementById("img2").src="image/dice6.png";
     }
+     winner();
 }
 function winner (){
     if(player1 > player2){
